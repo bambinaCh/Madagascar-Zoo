@@ -1,3 +1,90 @@
 body{
-    background-color: red;
+    background-image: url(/img/background-pic.png);
+    background-color:rgb(122, 209, 231);
+}
+
+a{
+    text-decoration: none;
+}
+/*NAVBAR */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.logo{
+    margin-bottom: 2em;
+}
+
+.nav-link{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: rgb(252, 223, 60);
+    background-color: rgb(196, 123, 90);
+    border-color: black;
+}
+
+/*BODY*/
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1250px;
+}
+
+/*SCHEDULE*/
+#schedule-div{
+    background-color: rgb(62, 124, 68);
+    padding: 2rem;
+    
+}
+
+#schedule-title{
+    align-self: flex-start;
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    align-self: center;
+}
+
+.ticket-icon{
+   margin-right: 2em;
+}
+
+#schedule-content{
+    justify-content: center;
+}
+
+/*MAP*/
+#map-div{
+    background-color: rgb(62, 124, 68);
+    padding: 2rem;
+    
+}
+
+#map-title{
+    align-self: flex-start;
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    align-self: center;
+}
+
+.map-icon{
+   margin-left: 2em;
+}
+
+#map-content{
+    justify-content: center;
 }
