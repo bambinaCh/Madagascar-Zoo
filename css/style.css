@@ -8,8 +8,12 @@ a{
    text-decoration: none;
 }
 
+li.nav-item:hover {
+    color: rgb(196, 123, 90);
+}
+
 .bg-homepage{
-    background-image: url(/img/background-pic.png);
+    background-image: url(img/background-pic.png);
 }
 /*NAVBAR */
 .nav {
@@ -113,10 +117,6 @@ a{
     
 }
 
-.schedule-icon{
-   margin-left: 2em;
-}
-
 #schedule-content{
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -132,3 +132,31 @@ a{
     flex-direction: column;
     margin-top: 1.5rem;
 }
+
+/*ANIMALS*/
+#animals-div{
+    background-color: rgb(62, 124, 68);
+    
+    
+}
+
+#animals-title{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    align-self: center;
+    padding-bottom: 2rem;
+    
+}
+
+#animals-content{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.animal-pic{
+max-width: 8rem;
+}
+
