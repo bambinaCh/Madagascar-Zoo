@@ -1,6 +1,8 @@
 body{
     background-image: url("../img/background-pic.png");
     background-color:rgb(122, 209, 231);
+    background-repeat: no-repeat;
+        background-attachment: fixed;
     
 }
 
@@ -8,11 +10,16 @@ a{
    text-decoration: none;
 }
 
-li.nav-item:hover {
+a.nav-link:hover {
     color: rgb(196, 123, 90);
 }
 
 /*NAVBAR */
+
+.py-3 {
+    padding-bottom: 0rem!important;
+} 
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +51,8 @@ li.nav-item:hover {
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1250px;
 }
+
+/*********************************************HOMPAGE*****************************/
 
 /*TICKETS*/
 #ticket-div{
@@ -133,8 +142,6 @@ li.nav-item:hover {
 /*ANIMALS*/
 #animals-div{
     background-color: rgb(62, 124, 68);
-    
-    
 }
 
 #animals-title{
@@ -155,10 +162,56 @@ li.nav-item:hover {
 
 .animal-pic{
 max-width: 8rem;
+padding-bottom: 0.5rem;
 }
 
+/*ADDRESS*/
+#adress-div{
+    background-color: rgb(62, 124, 68);
+    padding: 2rem;
+    
+}
 
-/* TIGER */
+#adress-title{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    align-self: center;
+    
+}
+
+#adress-content{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.adress{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+/*********************************** TIGER **************************************************/
+#tiger-title{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    align-self: center;
+    padding-bottom: 1rem;
+}
+
+#tiger-div{
+    background-color: rgb(62, 124, 68);
+}
 .accordion-item {
     background-color: rgb(96, 150, 101);
     border: 1px solid rgba(0,0,0,.125);

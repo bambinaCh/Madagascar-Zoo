@@ -35,37 +35,53 @@
     <div class="py-4 text-center container">
         <div class="row py-lg-4">
             <div class="col-lg-6 col-md-8 mx-auto">
+                <h3 class="mb-1" id="tiger-title">TIGER</h3>
             </div>
         </div>
 
         <!--MAIN CONTENT-->
-        <div class="col-md-6">
-            
-            <div class="accordion" id="animals-div">
+        <div class="tigers">
+            <div class="accordion" id="tiger-div">
                 <div class="accordion-item">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <div class="col p-4 d-flex flex-row" id="animals-content">
-                                    <h3 class="mb-1" id="animals-title">Alex</h3>
-                                    <div class="animal-pics">
-                                        <img src="img/alex.jpg" class="animal-pic"></a>
-                                    </div>
-                                </div>
-                        </button>
-                    
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="col p-4 d-flex flex-row" id="animals-content">
+                            <h3 class="mb-1" id="animals-title">Alex</h3>
+                            <div class="animal-pics">
+                                <img src="img/alex.jpg" class="animal-pic"></a>
+                            </div>
+                        </div>
+                    </button>
+
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#tiger-div">
                         <div class="accordion-body">
                             <strong>This is the first item's accordion body.</strong> It is shown by default, until the
                             collapse plugin adds the appropriate classes that we use to style each element. These
                             classes control the overall appearance, as well as the showing and hiding via CSS
                             transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="col p-4 d-flex flex-row" id="animals-content">
+                        <h3 class="mb-1" id="animals-title">Alex</h3>
+                        <div class="animal-pics">
+                            <img src="img/alex.jpg" class="animal-pic"></a>
+                        </div>
+                    </div>
+                </button>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#tiger-div">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. 
+                </div>
+            </div>
         </div>
 
 
