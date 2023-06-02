@@ -162,7 +162,8 @@ a.nav-link:hover {
 }
 
 .animal-pic{
-max-width: 8rem;
+max-width: 8.5rem;
+max-height: 8.5rem;
 padding-bottom: 0.5rem;
 }
 
@@ -198,6 +199,15 @@ padding-bottom: 0.5rem;
     flex-direction: column;
     margin-top: 1.5rem;
 }
+
+/* SOCIAL MEDIA DIV*/
+#social-div{
+    background-color: rgb(62, 124, 68);
+    padding: 2.5rem;
+    
+}
+
+
 
 /*********************************** TIGER **************************************************/
 #tiger-title{
