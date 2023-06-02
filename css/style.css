@@ -223,7 +223,9 @@ padding-bottom: 0.5rem;
     justify-content: space-evenly;
 }
 
-
+a.social-icon{
+    text-decoration-color: red;
+}
 
 /*********************************** TIGER **************************************************/
 #tiger-title{
