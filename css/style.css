@@ -201,10 +201,26 @@ padding-bottom: 0.5rem;
 }
 
 /* SOCIAL MEDIA DIV*/
+.social{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
 #social-div{
     background-color: rgb(62, 124, 68);
-    padding: 2.5rem;
+    padding: 1.5rem;
     
+}
+
+#social-content{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 
