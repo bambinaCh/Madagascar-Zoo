@@ -12,7 +12,7 @@
     <title>Tickets Madagascar Zoo</title>
 </head>
 
-<body class="bg-homepage">
+<body>
     <!--NAV BAR-->
     <div class="d-flex flex-wrap justify-content-center py-3 mb-4">
         <a href="index.html"
@@ -27,6 +27,7 @@
             <li class="nav-item"><a href="ticket.html" class="nav-link active" aria-current="page">Tickets</a></li>
             <li class="nav-item"><a href="schedule.html" class="nav-link">Öffnungszeiten</a></li>
             <li class="nav-item"><a href="animals.html" class="nav-link">Tiere</a></li>
+            <li class="nav-item"><a href="schedule.html" class="nav-link">Kontakt</a></li>
             <li class="nav-item"><a href="impressum.html" class="nav-link">Impressum</a></li>
             <li class="nav-item"><a href="agb.html" class="nav-link">AGB</a></li>
         </ul>
@@ -40,7 +41,70 @@
         </div>
 
         <!--MAIN CONTENT-->
-        
-    </div>  
+        <div class="row mb-2">
+
+            <!--SCHEDULE DIV-->
+            <div class="col-md-6">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative"
+                    id="schedule-div">
+                    
+                        <div class="col p-4 d-flex flex-row" id="schedule-content">
+                            <h3 class="mb-1" id="schedule-title">Öffnungszeiten</h3>
+
+                            <div class="schedule-time">
+                                <p>Montag bis Freitag 09 - 17h</p>
+                                <p>Samstag - Sonntag 09 - 18h</p>
+                                <p>Weihnachten Geschlossen</p>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+
+            
+
+            <!-- CONTACT DIV-->
+            <div class="col-md-6">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative"
+                    id="adress-div">
+                    <div class="col p-4 d-flex flex-row" id="adress-content">
+                        <h3 class="mb-1" id="adress-title">Kontakt</h3>
+                        <div class="adress">
+                            <p>In der Mitte vom Central Park, <strong>New York</strong></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<!--FOOTER-->
+<footer class="footer mt-auto" id="footer">
+    <div class="footer-content">
+        <div class="left-footer">
+            <a href="schedule.html" class="footer-list">
+                <li>Kontakt</li>
+            </a>
+            <a href="impressum.html" class="footer-list">
+                <li>Impressum</li>
+            </a>
+            <a href="agb.html" class="footer-list">
+                <li>AGB</li>
+            </a>
+        </div>
+        <div class="center-footer">
+            MADAGASCAR 2023
+        </div>
+        <div class="right-footer">
+            <a href="index.html" class="">
+                <img class="logo-footer" src="img/Madagascar-logo.svg.png" data-bs-hover-animate="pulse" height="52"
+                    alt="madagascar logo in gelb">
+            </a>
+        </div>
+    </div>
+</footer>
 
 </html>
