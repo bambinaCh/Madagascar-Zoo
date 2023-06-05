@@ -1,13 +1,15 @@
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+.bg-image{
     background-image: url("../img/background-pic.png");
-    background-color:rgb(122, 209, 231);
+    background-color: rgb(62, 124, 68);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
 }
 
 a{
@@ -187,8 +189,8 @@ padding-bottom: 0.5rem;
 
 #adress-content{
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .adress{
