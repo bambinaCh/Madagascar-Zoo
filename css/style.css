@@ -6,7 +6,7 @@ body{
 
 .bg-image{
     background-image: url("../img/background-pic.png");
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(86, 124, 62);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -36,14 +36,14 @@ a.nav-link:hover {
 }
 
 .logo{
-    margin-bottom: 1em;
-    margin-left: 10px;
+    margin-top: 0.7rem;
+    margin-left: 0.4rem;
 }
 
 .nav-link{
     color:rgb(252, 223, 60);
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.4rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -52,6 +52,47 @@ a.nav-link:hover {
     color: rgb(252, 223, 60);
     background-color: rgb(196, 123, 90);
     border-color: black;
+}
+
+.nav-item{
+    margin: 0.5rem;
+}
+collapse .navbar-collapse{
+    align-self: flex-end;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: rgb(252, 223, 60);
+    border: 2px solid #000;
+    border-radius: 0.3rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: space-evenly;
+    align-self:end;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    align-items: center;
 }
 
 /*BODY*/
@@ -63,7 +104,7 @@ a.nav-link:hover {
 
 /*TICKETS*/
 #ticket-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     padding: 2rem;
     
 }
@@ -89,7 +130,7 @@ a.nav-link:hover {
 
 /*MAP*/
 #map-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     padding: 2rem;
     
 }
@@ -115,7 +156,7 @@ a.nav-link:hover {
 
 /*SCHEDULE*/
 #schedule-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     padding: 2rem;
     
 }
@@ -148,7 +189,7 @@ a.nav-link:hover {
 
 /*ANIMALS*/
 #animals-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
 }
 
 #animals-title{
@@ -175,7 +216,7 @@ padding-bottom: 0.5rem;
 
 /*ADDRESS*/
 #adress-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     padding: 2rem;   
 }
 
@@ -217,7 +258,7 @@ padding-bottom: 0.5rem;
 }
 
 #social-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     padding: 1.5rem;
     
 }
@@ -234,7 +275,7 @@ a.social-icon{
 
 /*FOOTER*/
 #footer{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     color:rgb(252, 223, 60);
     font-weight: bold;
     font: size 3rem;
@@ -289,20 +330,20 @@ text-align: center;
 }
 
 #tiger-div{
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
 }
 .accordion-item {
-    background-color: rgb(96, 150, 101);
+    background-color: rgb(252, 223, 60);
     border: 1px solid rgba(0,0,0,.125);
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
 }
 
 .accordion-item:last-of-type .accordion-button.collapsed {
-    background-color: rgb(62, 124, 68);
+    background-color: rgb(73, 127, 39);
 }
 
 .accordion-button:focus {
