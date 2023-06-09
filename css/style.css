@@ -253,6 +253,11 @@ padding-bottom: 0.5rem;
     margin-top: 1.5rem;
 }
 
+p.adress{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
 /* SOCIAL MEDIA DIV*/
 .social{
     color:rgb(252, 223, 60);
@@ -323,8 +328,16 @@ text-align: center;
     margin-bottom: 0.5rem   ;
 }
 
-/********************************** SCHEDULE *********************************/
-
+/********************************** ABOUT US *********************************/
+#contact-title{
+    color:rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    align-self: center;
+    
+}
 
 /*********************************** TIGER **************************************************/
 #tiger-title{
