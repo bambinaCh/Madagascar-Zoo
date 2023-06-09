@@ -358,6 +358,7 @@ p.metro {
     left: 0;
     bottom: 0;
     width: 100%;
+    position: sticky;
 }
 
 .footer-content {
