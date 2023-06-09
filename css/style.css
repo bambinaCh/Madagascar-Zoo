@@ -379,6 +379,7 @@ a.footer-list {
 .left-footer {
     padding: 0.5rem;
 }
+
 ul {
     list-style: none;
     list-style-type: none;
@@ -386,18 +387,17 @@ ul {
     padding-left: 0;
 }
 
-
-
-ul.li
 .center-footer {
     padding: 0.5rem;
     text-align: center;
 }
 
+
 .logo-footer {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
-    
+    max-width: 25vw;
+        
 }
 
 /********************************** ABOUT US *********************************/
