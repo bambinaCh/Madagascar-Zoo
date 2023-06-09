@@ -403,10 +403,59 @@ a.footer-list {
 }
 
 /************************************ ANIMALS ******************/
-#animal-div {
+#animal-div-1 {
     background-color: rgb(73, 127, 39);
     transition: transform 0.2s;
 }
+#animal-div-2 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-3 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-4 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-5 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-6 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-7 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-8 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-9 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-10 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-11 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-12 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+#animal-div-13 {
+    background-color: rgb(73, 127, 39);
+    transition: transform 0.2s;
+}
+
 .animals-pic {
     max-width: 9.3rem;
     padding-bottom: 0.5rem;
