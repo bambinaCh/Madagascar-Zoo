@@ -2,15 +2,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-.bg-image {
     background-image: url("../img/background-pic.png");
     background-color: rgb(86, 124, 62);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 a {
     text-decoration: none;
@@ -37,10 +36,10 @@ a.nav-link:hover {
 }
 
 #btn-back-to-top {
-position: fixed;
-bottom: 20px;
-right: 20px;
-
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(252, 223, 60);
 }
 /*NAVBAR */
 
@@ -148,8 +147,8 @@ navbar-expand-lg .navbar-collapse {
 .ticket-icon:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
+    transform: scale(1.5);
+}
 
 #ticket-content {
     justify-content: center;
@@ -200,14 +199,13 @@ navbar-expand-lg .navbar-collapse {
     text-decoration: none;
     align-self: center;
     transition: transform 0.2s;
-
 }
 
 #schedule-title:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
+    transform: scale(1.5);
+}
 
 #schedule-content {
     flex-wrap: wrap;
@@ -340,7 +338,7 @@ p.metro {
     justify-content: space-evenly;
 }
 
-.social-icon{
+.social-icon {
     transition: transform 0.2s;
 }
 .social-icon:hover {
@@ -348,7 +346,6 @@ p.metro {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
 }
-
 
 /*FOOTER*/
 #footer {
@@ -358,7 +355,6 @@ p.metro {
     font: size 3rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-decoration: none;
-
     left: 0;
     bottom: 0;
     width: 100%;
@@ -382,6 +378,16 @@ a.footer-list {
 .left-footer {
     padding: 0.5rem;
 }
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+ul.li
 .center-footer {
     padding: 0.5rem;
     text-align: center;
@@ -390,6 +396,7 @@ a.footer-list {
 .logo-footer {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+    
 }
 
 /********************************** ABOUT US *********************************/
