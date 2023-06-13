@@ -10,7 +10,6 @@ body {
 }
 
 
-
 a {
     text-decoration: none;
     color: rgb(252, 223, 60);
@@ -41,7 +40,8 @@ a.nav-link:hover {
     right: 20px;
     color: rgb(252, 223, 60);
 }
-/*NAVBAR */
+
+/*******************************NAVBAR **********************/
 
 .nav {
     display: flex;
@@ -51,6 +51,7 @@ a.nav-link:hover {
     list-style: none;
     justify-content: space-evenly;
 }
+
 
 .logo {
     margin-top: 1rem;
