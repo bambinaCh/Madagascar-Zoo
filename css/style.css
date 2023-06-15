@@ -9,7 +9,6 @@ body {
     background-size: cover;
 }
 
-
 a {
     text-decoration: none;
     color: rgb(252, 223, 60);
@@ -51,7 +50,6 @@ a.nav-link:hover {
     list-style: none;
     justify-content: space-evenly;
 }
-
 
 .logo {
     margin-top: 1rem;
@@ -177,8 +175,8 @@ navbar-expand-lg .navbar-collapse {
 }
 
 .map-icon:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
     transform: scale(1.5);
 }
 
@@ -203,8 +201,8 @@ navbar-expand-lg .navbar-collapse {
 }
 
 #schedule-title:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
     transform: scale(1.5);
 }
 
@@ -250,9 +248,9 @@ navbar-expand-lg .navbar-collapse {
     transition: transform 0.2s;
 }
 .animal-pic:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 /*ADDRESS*/
@@ -286,37 +284,6 @@ navbar-expand-lg .navbar-collapse {
     margin-top: 1.5rem;
 }
 
-iframe {
-    width: max-content;
-}
-p.adress {
-    font-size: 1.2rem;
-    text-decoration: underline;
-    transition: transform 0.2s;
-}
-p.adress:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
-}
-
-p.anreise {
-    color: rgb(252, 223, 60);
-    font-weight: bold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-}
-
-p.metro {
-    color: rgb(252, 223, 60);
-    font-weight: bold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-    text-align: left;
-}
-
 /* SOCIAL MEDIA DIV*/
 .social {
     color: rgb(252, 223, 60);
@@ -343,8 +310,8 @@ p.metro {
     transition: transform 0.2s;
 }
 .social-icon:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
     transform: scale(1.5);
 }
 
@@ -360,6 +327,7 @@ p.metro {
     bottom: 0;
     width: 100%;
     position: sticky;
+    max-height: 20VW;
 }
 
 .footer-content {
@@ -393,11 +361,9 @@ ul {
     text-align: center;
 }
 
-
 .logo-footer {
     padding: 0.5rem;
     max-width: 20vw;
-        
 }
 
 /********************************** ABOUT US *********************************/
@@ -468,6 +434,7 @@ ul {
     max-width: 9.3rem;
     padding-bottom: 0.5rem;
 }
+
 #animal-div:hover {
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
@@ -508,4 +475,91 @@ ul {
 
 .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/************************** ABOUT US**********/
+.adress-map {
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+iframe {
+    width: 100%;
+}
+p.adress {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    transition: transform 0.2s;
+}
+p.adress:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+}
+
+p.anreise {
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+p.anreise:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+p.metro {
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+p.metro:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#contact-content {
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mail {
+    transition: transform 0.2s;
+}
+
+.mail:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.number {
+    transition: transform 0.2s;
+}
+
+.number:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
