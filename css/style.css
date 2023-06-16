@@ -32,10 +32,18 @@ a.nav-link:hover {
 .rounded {
     border-radius: 0.5rem !important;
 }
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 #btn-back-to-top {
     position: fixed;
     bottom: 7rem;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
     background-color: rgb(252, 223, 60);
 }
 
@@ -319,17 +327,16 @@ navbar-expand-lg .navbar-collapse {
     color: rgb(252, 223, 60);
     font-weight: bold;
     font: size 3rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-#about-content{
+#about-content {
     background-color: rgb(73, 127, 39);
     padding: 2rem;
     color: rgb(252, 223, 60);
     font-weight: bold;
     font: size 3rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
 
 #contact-title {
     color: rgb(252, 223, 60);
@@ -506,6 +513,7 @@ p.metro:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin-top: 1.5rem;
 }
 
 .mail {
@@ -532,16 +540,44 @@ p.metro:hover {
     color: rgb(252, 223, 60);
     font-weight: bold;
     font: size 3rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#agb-content{
+#agb-content {
     background-color: rgb(73, 127, 39);
     padding: 2rem;
     color: rgb(252, 223, 60);
     font-weight: bold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-text-align: left;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: left;
+}
+
+.form-title {
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    font: size 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#form-content {
+    background-color: rgb(73, 127, 39);
+    padding: 2rem;
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    justify-content: center;
+    text-align: left;
+}
+.input {
+    margin-top: 1rem;
+}
+
+.form-button {
+    background-color: rgb(196, 123, 90);
+    border-radius: 0.5rem;
+    color: rgb(252, 223, 60);
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /************************************IMPRESSUM**************************************/
@@ -549,16 +585,16 @@ text-align: left;
     color: rgb(252, 223, 60);
     font-weight: bold;
     font: size 3rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#impressum-content{
+#impressum-content {
     background-color: rgb(73, 127, 39);
     padding: 2rem;
     color: rgb(252, 223, 60);
     font-weight: bold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-text-align: left;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: left;
 }
 /**********************************************FOOTER*********************************/
 

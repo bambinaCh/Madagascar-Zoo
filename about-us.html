@@ -50,7 +50,7 @@
         <!--MAIN CONTENT-->
         <div class="row mb-2">
             <div class="col-md-12">
-                <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative" >
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-row" id="about-content">
                         <p class="mb-1">
                             Der Zoo "Madagascar" lässt den Geist des Films Madagascar lebendig
@@ -119,15 +119,53 @@
                 </div>
             </div>
         </div>
+        <!-- CONTACT FORM-->
+        <div class="col-md-12">
+            <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative" id="adress-div">
+                <h1 class="form-title">KONTAKTIERE UNS</h1>
+                <div class="col p-4 d-flex flex-row" id="form-content">
+                    <form id="contactForm">
+                        <div class="input">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input">
+                            <label for="lastname">Nachname:</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">E-Mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input">
+                            <label for="subject">Betreff:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="input">
+                            <label for="description">Beschreibung:</label>
+                            <textarea id="description" name="description" required></textarea>
+                        </div>
+                        <div class="input">
+                            <button type="submit" class="form-button">Absenden</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
 
     </div>
-    </div>
-
     <!--END OF CONTENT-->
+
+
+
     <!-- Back to top button -->
-    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+    <div class="button">
+        <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
 
     <!--FOOTER-->
     <footer class="footer" id="footer">
