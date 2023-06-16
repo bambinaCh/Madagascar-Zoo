@@ -321,6 +321,18 @@ navbar-expand-lg .navbar-collapse {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
+/*******************MAP***************************/
+#maps-div{
+    background-color: rgb(73, 127, 39);
+    padding: 2rem;
+    width: fit-content;
+}
+#maps-content {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 /********************************** ABOUT US *********************************/
 .about-title {
@@ -428,6 +440,10 @@ navbar-expand-lg .navbar-collapse {
 .accordion-item {
     background-color: rgb(252, 223, 60);
     border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.accordion-button {
+   
+    background-color: rgb(73, 127, 39);
 }
 
 .accordion-button:not(.collapsed) {
