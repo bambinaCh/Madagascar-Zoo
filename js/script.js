@@ -42,16 +42,9 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         return;
     }
 
-    // Send form data to server (you can customize this part with your own implementation)
-    // Here, we're just displaying an alert with the form data
-    var formData = {
-        name: name,
-        lastname: lastname,
-        email: email,
-        subject: subject,
-        description: description
-    };
-    alert('Formulardaten:\n' + JSON.stringify(formData));
+    var thankYouMessage = 'Danke für Ihre Anfrage. Es wird ASAP bearbeitet.';
+    // Replace the following line with your preferred way of displaying the message to the user
+    alert(thankYouMessage);
 
     // Reset form fields
     document.getElementById('contactForm').reset();
@@ -65,4 +58,3 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 
 
 
-//FOOTER
